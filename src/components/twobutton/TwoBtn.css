@@ -1,0 +1,52 @@
+.twobtn-content
+{
+    max-width: 1086px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 40px;
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+.btn1,.btn2
+{
+    height: 72px;
+    width: 570px;
+    font-size:18px;
+    background-color: #006778;
+    color: white;
+}
+.rarw
+{
+    font-size: 23px;
+    width: 40px;
+    color: white;
+}
+@media only screen and (min-width:1024px) and (max-width:1100px)
+{
+    .twobtn-content
+    {
+        max-width: 900px;
+    }
+}
+@media only screen and (min-width:280px) and (max-width:1000px)
+{
+    .twobtn-content
+    {
+        display:block;
+        padding-left: 40px;
+        padding-bottom: 25px;
+    }
+    .btn1,.btn2
+    {
+        font-size: 12px;
+        margin-bottom: 15px;
+        width: 90%;
+        height: 50px;
+    }
+    .rarw
+    {
+        font-size: 15px;
+    }
+}

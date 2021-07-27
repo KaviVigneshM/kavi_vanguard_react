@@ -1,0 +1,198 @@
+.footer 
+{
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+    .column1,.column2,.column3,.column4{
+        float: left;
+        width: 20.8%;
+        padding: 10px;
+        height: 231px; /* Should be removed. Only for demonstration */
+        background-color: #022737;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .fb,.twt,.youtube,.hotspot,.mail
+      {
+          border-radius: 50px;
+          border: 1px solid white;
+          font-size: 20px;
+          color: white;
+          padding: 5px;
+      }
+      .cpyright
+      {
+          padding-top: 30px;
+          font-size: 13px;
+          color: #d8d8d8;
+      }
+      .column1
+      {
+          padding-left: 138px;
+          width: 21.2%;
+      }
+      .column2,.column3
+      {
+          width: 17.7%;
+      }
+      .column4
+      {
+          width: 27.9%;
+      }
+      .whitelogo-footer
+      {
+          padding-top: 30px;
+      }
+      .socialmedia-logo
+      {
+          display: flex;
+          column-gap: 10px;
+          padding-top: 20px;
+      }
+      .info-footer
+      {
+          padding-top: 30px;
+          font-size: 14px;
+          
+      }
+      a
+      {
+          display: block;
+          padding-bottom: 18px;
+          padding-left: 70px;
+          text-decoration: none;
+          color: #d8d8d8;
+         
+      }
+      .footer-searchbar
+      {
+          padding-top: 7px;
+          font-size: 18px;
+          color: #d8d8d8;
+      }
+      #search-bar
+      {
+          height: 40px;
+          width: 280px;
+      }
+      .arw-btn-footer
+      {
+          height: 46px;
+          background-color: #006778;
+          border-color: #006778;
+      }
+      .rytarw
+      {
+        width: 25px;
+        color: white;
+      }
+      @media only screen and (min-width:1024px)
+      {
+          .column-mob
+          {
+              display: none;
+          }
+      }
+      @media only screen and (min-width:1024px) and (max-width:1100px)
+    {
+        .column1
+        {
+            padding-left: 30px;
+
+        }
+        .info-footer
+        {
+            padding-left: -20px;
+            font-size: 10px;
+        }
+        .column2
+        {
+            width: 18.7%;
+        }
+        .footer-searchbar
+        {
+            font-size: 14px;
+        }
+        .cpyright
+        {
+            font-size: 9px;
+        }
+        .column4
+        {
+            width: 32.6%;
+        }
+    }
+      @media only screen and (min-width:280px) and (max-width:1000px)
+      {
+          .column1
+          {
+              width:100%;
+              padding-left: 5px;
+          }
+          .column-mob 
+          {
+              width: 100%;
+              display: flex;
+              flex-direction: row;
+              background-color: #022737;
+              justify-content: center;
+          }
+          .column2,.column3
+          {
+              display: none;
+          }
+          .column4
+          {
+              width: 100%;
+              height: 120px;
+          }
+          .footer-searchbar
+          {
+              padding-top: 2px;
+              text-align: center;
+          }
+          .info-footer
+          {
+              font-size: 11px;
+          }
+          .info-footer-mob,.info-footer-mob2
+          {
+              font-size: 11px;
+          }
+          .info-footer-mob2
+          {
+              padding-left: 20px;
+          }
+          a
+            {
+              padding-left: 11px;
+              padding-bottom: 20px;
+            }
+          .whitelogo-footer,.cpyright
+          {
+              text-align: center;
+          }
+          .cpyright
+          {
+              font-size: 12px;
+          }
+          .socialmedia-logo
+          {
+              justify-content: center;
+          }
+
+          #search-bar
+          {
+              width:200px;
+          }
+          .arw-btn-footer
+          {
+              height: 45px;
+          }
+        }

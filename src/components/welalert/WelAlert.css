@@ -1,0 +1,21 @@
+.welalert-content
+{
+    max-width: 690px;
+    margin: 0 auto;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #505050;
+    font-family: HelveticaNeue;
+    
+}
+.welalert 
+{  
+    height: 80px;
+    border-bottom: 1px solid grey;
+}
+.vanguardlink
+{
+    text-decoration: underline;
+    color: #006778;
+}

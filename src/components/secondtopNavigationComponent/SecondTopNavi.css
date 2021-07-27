@@ -1,0 +1,94 @@
+.secondtop-navi
+{
+    max-width: 1440px;
+    margin:0 auto;
+    height: 80px;
+    border-bottom: 1px solid lightslategray;
+}
+.second-content
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.selectBox1
+{
+     border:none;
+     color: #022737;
+     font-weight: bold;
+     font-family: HelveticaNeue;
+     font-size: 12px;
+}
+.logo-block,.navi-content,.hamburger
+{
+    display: inline;
+}
+.logo-block
+{
+    padding-left: 138px;
+}
+.logopic
+{
+    height: 60px;
+}
+.navi-content
+{
+    float: right;
+    padding-top: 35px;
+    padding-right: 10%;
+    display: flex;
+    column-gap: 20px;
+    color: #022737;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: HelveticaNeue;
+    justify-content: space-between;
+}
+@media only screen and (min-width:1024px)
+{
+    .hamburger
+    {
+        display: none;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width:1100px)
+{
+    .hamburger
+    {
+        display: none;
+    }
+    .logo-block
+    {
+        padding-left: 20px;
+    }
+}
+@media only screen and (min-width:280px) and (max-width:1023px)
+{
+    .secondtop-logobox  
+    {
+        max-width: 690px;
+        margin: 0 auto;
+    }
+    .navi-content
+    {
+        display: none;
+    }
+    .logo-block
+    {
+        padding-left: 10px;
+    }
+    .logopic
+    {
+        padding-top: 15px;
+        height:42px;
+    }
+    .hamburger
+    {
+        float: right;
+        padding-top: 30px;
+        padding-right: 35px;
+        display: flex;
+        column-gap: 20px;
+        color: #022737;
+        font-size: 26px;
+    }
+}
