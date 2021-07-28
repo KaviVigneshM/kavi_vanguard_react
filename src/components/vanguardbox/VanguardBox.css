@@ -255,7 +255,7 @@
       {
         max-width:auto;
         overflow: hidden;
-        height: 1630px;
+        height: 1700px;
       }
       .grant-contribute-tabs a 
       {
@@ -279,7 +279,7 @@
       .transaction-user-details
       {
         width: calc(100% - 2px);
-        height: 320px;
+        height: 410px;
         overflow: hidden;
       }
       .gift-id-username-block a,p

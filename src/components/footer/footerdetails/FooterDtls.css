@@ -4,6 +4,10 @@
     margin: 0 auto;
     overflow: hidden;
 }
+.footer-content-block
+{
+    background-color: #022737;
+}
     .logo-copyright-column,.about-career-legal-column,.contact-privacy-column,.subscribe-newsletter-column{
         float: left;
         width: 20.8%;
@@ -103,6 +107,7 @@
         width: 25px;
         color: white;
       }
+      
       @media only screen and (min-width:1024px)
       {
           .mobile-about-career-legal-column
@@ -110,7 +115,8 @@
               display: none;
           }
       }
-      @media only screen and (min-width:1024px) and (max-width:1400px)
+      
+      @media only screen and (min-width:1024px) and (max-width:1360px)
     {
         .logo-copyright-column
         {
@@ -139,6 +145,7 @@
             width: 32.6%;
         }
     }
+    
       @media only screen and (min-width:280px) and (max-width:1023px)
       {
           .logo-copyright-column

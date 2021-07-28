@@ -7,6 +7,7 @@ import TwoBtnComponent from '../../components/twobutton/TwoBtnComponent';
 import FooterDetailcomponent from '../../components/footer/footerdetails/FooterDetailcomponent';
 import WelAlert from '../../components/welalert/WelAlert';
 import FooterBot from '../../components/footer/footerbottom/FooterBot';
+import SecondNaviContainer from '../../container/secondtopNaviContainer/SecondNaviContainer';
 
 function TopNavigation() {
     return (
@@ -16,7 +17,7 @@ function TopNavigation() {
             </header>
 
             <nav>
-                <SecondTopNavComponent/>
+                <SecondNaviContainer/>
             </nav>
             
             <main>

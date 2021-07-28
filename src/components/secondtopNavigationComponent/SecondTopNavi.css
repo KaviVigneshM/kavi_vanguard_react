@@ -4,6 +4,14 @@
     margin:0 auto;
     height: 80px;
 }
+.false
+{
+    display: none;
+}
+.true
+{
+    display: block;
+}
 .navigation-bar-menu
 {
      border:none;

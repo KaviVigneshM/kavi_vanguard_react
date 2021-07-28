@@ -3,7 +3,7 @@ import VanguardLogo from '../../assets/images/vcep-logo.jpg';
 import { GiHamburgerMenu } from "react-icons/gi";
 
 
-function SecondTopNavComponent() {
+function SecondTopNavComponent(props) {
     return (
         <nav>
             <div className="navigation-bar-vanguard-logo">
@@ -20,11 +20,20 @@ function SecondTopNavComponent() {
                         <a href="#" class="navigation-bar-menu">MY ACCOUNT</a>
                     </div>
                     <div className="hamburger-menu-mobileview">
-                        <GiHamburgerMenu/>
+                        <GiHamburgerMenu onClick={props.changeham}/>
                     </div>
                 </div>
             </div>
+            <div className={props.name ? "true" : "false"}>
+                <a href="#" class="navigation-bar-menu">ACCOUNT SUMMARY</a>
+                <a href="#" class="navigation-bar-menu">GRANTS</a>
+                <a href="#" class="navigation-bar-menu">CONTRIBUTION</a>
+                <a href="#" class="navigation-bar-menu">INVESTMENTS</a>
+                <a href="#" class="navigation-bar-menu"> RESOURCES</a>
+                <a href="#" class="navigation-bar-menu">MY ACCOUNT</a>
+            </div>
         </nav>
+        
     )
 }
 
