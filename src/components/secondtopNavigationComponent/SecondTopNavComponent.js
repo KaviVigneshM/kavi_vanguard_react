@@ -5,32 +5,26 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 function SecondTopNavComponent() {
     return (
-        <div className="secondtop-navi">
-        <div className="secondtop-logobox">
-            <div className="logo-block">
-                <img className="logopic" src={VanguardLogo}/>
+        <nav>
+            <div className="navigation-bar-vanguard-logo">
+                <div className="vanguard-logo-navigation-block">
+                    <div className="vanguard-logo">
+                        <img className="vanguard-logo-img" src={VanguardLogo}/>
+                    </div>
+                    <div className="navigation-bar-vanguard-content">
+                        <a href="#" class="navigation-bar-menu">ACCOUNT SUMMARY</a>
+                        <a href="#" class="navigation-bar-menu">GRANTS</a>
+                        <a href="#" class="navigation-bar-menu">CONTRIBUTION</a>
+                        <a href="#" class="navigation-bar-menu">INVESTMENTS</a>
+                        <a href="#" class="navigation-bar-menu"> RESOURCES</a>
+                        <a href="#" class="navigation-bar-menu">MY ACCOUNT</a>
+                    </div>
+                    <div className="hamburger-menu-mobileview">
+                        <GiHamburgerMenu/>
+                    </div>
+                </div>
             </div>
-            <div className="navi-content">
-                ACCOUNT SUMMARY
-                <select class="selectBox1">
-                    <option>GRANTS</option>
-                </select>
-                <select class="selectBox1">
-                    <option>CONTRIBUTION</option>
-                </select>
-                <select class="selectBox1">
-                    <option>INVESTMENTS</option>
-                </select>
-                RESOURCES
-                <select class="selectBox1">
-                    <option>MY ACCOUNT</option>
-                </select>
-            </div>
-            <div className="hamburger">
-                <GiHamburgerMenu/>
-            </div>
-        </div>
-        </div>
+        </nav>
     )
 }
 

@@ -1,13 +1,13 @@
-.accnt-overview
+.account-overview-block
 {
-    max-width: 1086px;
+    max-width: 1080px;
     margin: 0 auto;
     padding-top: 40px;
     font-family: BerkeleyStd;
     color: #505050;
     height: 230px;
 }
-.accntbox
+.home-account-overview-block
 {
     font-size: 14px;
     display: flex;
@@ -15,28 +15,32 @@
     color: #505050;
     padding-bottom:40px;
 }
-.accntbox2
+.account-overview-text
 {
     font-size: 42px;
+    font-family: BerkeleyStd;
     color: #022737;
     padding-bottom: 10px;
 }
-.church
+.church-fund-text
 {
     font-weight: bold;
+    color:#022737;
+    font-family: HelveticaNeue;
+    font-size: 16px;
 }
 @media only screen and (min-width:280px) and (max-width:1110px)
 {
-    .accnt-overview 
+    .account-overview-block 
     {
         max-width: 990px;
         margin: 0 auto;
     }
-    .accntbox,.church,.balance
+    .home-account-overview-block,.church-fund-text,.balance
     {
         padding-left: 10px;
     }
-    .accntbox2
+    .account-overview-text
     {
         font-size: 30px;
         padding-left: 10px;

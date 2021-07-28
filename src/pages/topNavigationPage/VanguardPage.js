@@ -11,16 +11,25 @@ import FooterBot from '../../components/footer/footerbottom/FooterBot';
 function TopNavigation() {
     return (
         <>
-            <TopNavComponent/>
-            <SecondTopNavComponent/>
-            <div className="mobile">
-            <WelAlert/>
-            </div>
-            <AccntOverview/>
-            <VanguardBoxComponent/>
-            <TwoBtnComponent/>
-            <FooterDetailcomponent/>
-            <FooterBot/>
+            <header>
+                <TopNavComponent/>
+            </header>
+
+            <nav>
+                <SecondTopNavComponent/>
+            </nav>
+            
+            <main>
+                <WelAlert/>
+                <AccntOverview/>
+                <VanguardBoxComponent/>
+                <TwoBtnComponent/>
+            </main>
+
+            <footer>
+                <FooterDetailcomponent/>
+                <FooterBot/>
+            </footer>
         </>
     )
 }

@@ -4,7 +4,7 @@
     margin: 0 auto;
     overflow: hidden;
 }
-    .column1,.column2,.column3,.column4{
+    .logo-copyright-column,.about-career-legal-column,.contact-privacy-column,.subscribe-newsletter-column{
         float: left;
         width: 20.8%;
         padding: 10px;
@@ -13,12 +13,12 @@
       }
       
       /* Clear floats after the columns */
-      .row:after {
+      .footer-content-block:after {
         content: "";
         display: table;
         clear: both;
       }
-      .fb,.twt,.youtube,.hotspot,.mail
+      .facebook,.twitter,.youtube,.hotspot,.mail
       {
           border-radius: 50px;
           border: 1px solid white;
@@ -26,26 +26,26 @@
           color: white;
           padding: 5px;
       }
-      .cpyright
+      .copy-right
       {
           padding-top: 30px;
           font-size: 13px;
           color: #d8d8d8;
       }
-      .column1
+      .logo-copyright-column
       {
           padding-left: 138px;
           width: 21.2%;
       }
-      .column2,.column3
+      .about-career-legal-column,.contact-privacy-column
       {
           width: 17.7%;
       }
-      .column4
+      .subscribe-newsletter-column
       {
           width: 27.9%;
       }
-      .whitelogo-footer
+      .vanguard-whitelogo-footer
       {
           padding-top: 30px;
       }
@@ -55,7 +55,7 @@
           column-gap: 10px;
           padding-top: 20px;
       }
-      .info-footer
+      .information-link-block
       {
           padding-top: 30px;
           font-size: 14px;
@@ -70,72 +70,83 @@
           color: #d8d8d8;
          
       }
-      .footer-searchbar
+      .subscribe-searchbar-block
       {
           padding-top: 7px;
           font-size: 18px;
           color: #d8d8d8;
       }
-      #search-bar
+      .email-arrow-block
       {
-          height: 40px;
-          width: 280px;
+          display: flex;
       }
-      .arw-btn-footer
+      #email-bar
       {
-          height: 46px;
-          background-color: #006778;
-          border-color: #006778;
+        width: 250px;
+        padding: 5px;
+        border-right: none;
+        outline: none;
       }
-      .rytarw
+      .arrow-button-footer
+      {
+        width: 40px;
+        height:49px;
+        border:none;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+        font-size: 20px;
+        background-color: #006778;
+      }
+      .right-arrow-icon
       {
         width: 25px;
         color: white;
       }
       @media only screen and (min-width:1024px)
       {
-          .column-mob
+          .mobile-about-career-legal-column
           {
               display: none;
           }
       }
-      @media only screen and (min-width:1024px) and (max-width:1100px)
+      @media only screen and (min-width:1024px) and (max-width:1400px)
     {
-        .column1
+        .logo-copyright-column
         {
             padding-left: 30px;
 
         }
-        .info-footer
+        .information-link-block
         {
             padding-left: -20px;
             font-size: 10px;
         }
-        .column2
+        .about-career-legal-column
         {
             width: 18.7%;
         }
-        .footer-searchbar
+        .subscribe-searchbar-block
         {
             font-size: 14px;
         }
-        .cpyright
+        .copy-right
         {
             font-size: 9px;
         }
-        .column4
+        .subscribe-newsletter-column
         {
             width: 32.6%;
         }
     }
-      @media only screen and (min-width:280px) and (max-width:1000px)
+      @media only screen and (min-width:280px) and (max-width:1023px)
       {
-          .column1
+          .logo-copyright-column
           {
               width:100%;
               padding-left: 5px;
           }
-          .column-mob 
+          .mobile-about-career-legal-column
           {
               width: 100%;
               display: flex;
@@ -143,29 +154,29 @@
               background-color: #022737;
               justify-content: center;
           }
-          .column2,.column3
+          .about-career-legal-column,.contact-privacy-column
           {
               display: none;
           }
-          .column4
+          .subscribe-newsletter-column
           {
               width: 100%;
               height: 120px;
           }
-          .footer-searchbar
+          .subscribe-searchbar-block
           {
               padding-top: 2px;
               text-align: center;
           }
-          .info-footer
+          .information-link-block
           {
               font-size: 11px;
           }
-          .info-footer-mob,.info-footer-mob2
+          .mobile-information-link-block,.mobile-information-link-block2
           {
               font-size: 11px;
           }
-          .info-footer-mob2
+          .mobile-information-link-block2
           {
               padding-left: 20px;
           }
@@ -174,11 +185,11 @@
               padding-left: 11px;
               padding-bottom: 20px;
             }
-          .whitelogo-footer,.cpyright
+          .vanguard-whitelogo-footer,.copy-right
           {
               text-align: center;
           }
-          .cpyright
+          .copy-right
           {
               font-size: 12px;
           }
@@ -186,12 +197,15 @@
           {
               justify-content: center;
           }
-
-          #search-bar
+          .email-arrow-block
+          {
+             justify-content: center;
+          }
+          #email-bar
           {
               width:200px;
           }
-          .arw-btn-footer
+          .arrow-button-footer
           {
               height: 45px;
           }

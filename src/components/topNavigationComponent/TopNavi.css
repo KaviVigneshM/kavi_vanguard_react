@@ -1,4 +1,4 @@
-.topnavi-bluebox
+.app-bar
 {
     max-width: 1440px;
     margin:0 auto;
@@ -6,17 +6,18 @@
     height: 40px;
     color: white;
 }
-.topnavi-content
+.app-bar-content
 {
     float: right;
     padding-top: 10px;
     padding-right: 10%;
     display: flex;
     column-gap: 20px;
+    font-family: HelveticaNeue;
     font-size: 14px;
     justify-content: space-between;
 }
-.selectBox{
+.app-bar-dropdown-name{
     width:220px;
     border-radius:36px;
     border:1px solid #cccccc;
@@ -33,15 +34,15 @@ option
 }
 @media only screen and (min-width:280px) and (max-width:767px)
 {
-    #need
+    #need-assistance-text
     {
         display:none;
     }
-    .topnavi-content
+    .app-bar-content
     {
         padding-right: 10%;
     }
-    .selectBox{
+    .app-bar-dropdown-name{
         width:190px;
     }
 }

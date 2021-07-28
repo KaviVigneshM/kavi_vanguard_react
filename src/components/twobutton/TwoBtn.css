@@ -1,23 +1,24 @@
-.twobtn-content
+.anotherfund-interestedparties-button-content
 {
     max-width: 1086px;
     margin: 0 auto;
     overflow: hidden;
-    padding-top: 40px;
+    padding-top: 50px;
     display: flex;
-    height: 120px;
+    height: 100px;
     justify-content: space-between;
-    column-gap: 10px;
+    column-gap: 20px;
 }
-.btn1,.btn2
+.anotherfund-button,.invited-button
 {
-    height: 72px;
+    height: 50px;
     width: 570px;
-    font-size:18px;
+    font-size:16px;
+    font-family: HelveticaNeue;
     background-color: #006778;
     color: white;
 }
-.rarw
+.Narrow-right-icon
 {
     font-size: 23px;
     width: 40px;
@@ -25,27 +26,27 @@
 }
 @media only screen and (min-width:1024px) and (max-width:1100px)
 {
-    .twobtn-content
+    .anotherfund-interestedparties-button-content
     {
         max-width: 900px;
     }
 }
 @media only screen and (min-width:280px) and (max-width:1000px)
 {
-    .twobtn-content
+    .anotherfund-interestedparties-button-content
     {
         display:block;
         padding-left: 40px;
-        padding-bottom: 25px;
+        padding-bottom: 38px;
     }
-    .btn1,.btn2
+    .anotherfund-button,.invited-button
     {
         font-size: 12px;
         margin-bottom: 15px;
         width: 90%;
         height: 50px;
     }
-    .rarw
+    .Narrow-right-icon
     {
         font-size: 15px;
     }

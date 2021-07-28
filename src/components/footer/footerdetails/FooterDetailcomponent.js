@@ -8,63 +8,65 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 function FooterDetailcomponent() {
     return (
             <div className="footer">
-                <div className="row">
-                    <div className="column1">
-                     <div className="whitelogo-footer">   
-                        <img src={whitelogo}/>
+                <div className="footer-content-block">
+                    <div className="logo-copyright-column">
+                        <div className="vanguard-whitelogo-footer">   
+                            <img src={whitelogo}/>
+                        </div>
+                        <div  className="socialmedia-logo">
+                            <GrFacebookOption className="facebook"/>
+                            <GrTwitter className="twitter"/>
+                            <GrYoutube className="youtube"/>
+                            <IoLogoRss className="hotspot"/>
+                            <IoIosMail className="mail"/>
+                        </div>
+                        <div className="copy-right">
+                            &copy;2018 Vanguard Charitable Endowment Program
+                        </div>
                     </div>
-                    <div  className="socialmedia-logo">
-                        <GrFacebookOption className="fb"/>
-                        <GrTwitter className="twt"/>
-                        <GrYoutube className="youtube"/>
-                        <IoLogoRss className="hotspot"/>
-                        <IoIosMail className="mail"/>
+                    <div className="about-career-legal-column">
+                        <div className="information-link-block">
+                            <a> ABOUT US </a>
+                            <a> CAREER OPPORTUNITIES </a>
+                            <a>LEGAL DISCLOSURE </a>
+                            <a> POLICIES AND GUIDELINES </a>
+                            <a> USER AGREEMENT </a>
+                        </div>
                     </div>
-                    <div className="cpyright">
-                        &copy;2018 Vanguard Charitable Endowment Program
+                    <div className="contact-privacy-column">
+                        <div className="information-link-block">
+                            <a> CONTACT US </a>
+                            <a> FORMS </a>
+                            <a>PRIVACY POLICY </a>
+                            <a> TERMS & CONDITION </a>
+                            <a> COMPANY POICIES </a>
+                        </div>
                     </div>
+                    <div className="mobile-about-career-legal-column">
+                        <div className="mobile-information-link-block">
+                            <a> ABOUT US </a>
+                            <a> CAREER OPPORTUNITIES </a>
+                            <a>LEGAL DISCLOSURE </a>
+                            <a> POLICIES AND GUIDELINES </a>
+                            <a> USER AGREEMENT </a>
+                        </div>
+                        <div className="mobile-information-link-block2">
+                            <a> CONTACT US </a>
+                            <a> FORMS </a>
+                            <a>PRIVACY POLICY </a>
+                            <a> TERMS & CONDITION </a>
+                            <a> COMPANY POICIES </a>
+                        </div>
                     </div>
-                <div className="column2">
-                    <div className="info-footer">
-                       <a> ABOUT US </a>
-                       <a> CAREER OPPORTUNITIES </a>
-                       <a>LEGAL DISCLOSURE </a>
-                       <a> POLICIES AND GUIDELINES </a>
-                       <a> USER AGREEMENT </a>
+                    <div className="subscribe-newsletter-column">
+                        <div className="subscribe-searchbar-block">
+                            <p>Subscribe to our Newsletter</p>
+                            <div className="email-arrow-block">
+                                <input id="email-bar" type="text" placeholder="Enter your Email Address"/>
+                                <button className="arrow-button-footer"><HiArrowNarrowRight className="right-arrow-icon"/></button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div className="column3">
-                    <div className="info-footer">
-                       <a> CONTACT US </a>
-                       <a> FORMS </a>
-                       <a>PRIVACY POLICY </a>
-                       <a> TERMS & CONDITION </a>
-                       <a> COMPANY POICIES </a>
-                    </div>
-                </div>
-                <div className="column-mob">
-                    <div className="info-footer-mob">
-                       <a> ABOUT US </a>
-                       <a> CAREER OPPORTUNITIES </a>
-                       <a>LEGAL DISCLOSURE </a>
-                       <a> POLICIES AND GUIDELINES </a>
-                       <a> USER AGREEMENT </a>
-                    </div>
-                    <div className="info-footer-mob2">
-                       <a> CONTACT US </a>
-                       <a> FORMS </a>
-                       <a>PRIVACY POLICY </a>
-                       <a> TERMS & CONDITION </a>
-                       <a> COMPANY POICIES </a>
-                    </div>
-                </div>
-                <div className="column4">
-                    <div className="footer-searchbar">
-                        <p>Subscribe to our Newsletter</p>
-                        <input id="search-bar" type="text" placeholder="Enter your Email Address"/>
-                        <button className="arw-btn-footer"><HiArrowNarrowRight className="rytarw"/></button>
-                    </div>
-                </div>
                 </div>
             </div>
     )

@@ -4,16 +4,16 @@ import { FaUserCircle } from "react-icons/fa";
 
 function TopNavComponent() {
     return (
-        <div className="topnavi-bluebox">
-            <div className="topnavi-content"> 
-                <span id="need">Need Assistance ?</span>
-                <select class="selectBox">
-                    <option>John Carson Eco Fund - A02…</option>
-                </select>
-                <GrMail className="mailletter"/>
-                <FaUserCircle className="user-icon"/>
+            <div className="app-bar">
+                <div className="app-bar-content"> 
+                    <span id="need-assistance-text">Need Assistance ?</span>
+                    <select class="app-bar-dropdown-name">
+                        <option>John Carson Eco Fund - A02…</option>
+                    </select>
+                    <GrMail className="mailletter"/>
+                    <FaUserCircle className="user-icon"/>
                 </div>
-        </div>
+            </div>
     )
 }
 
