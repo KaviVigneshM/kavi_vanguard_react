@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kavi_vanguard_react/static/css/main.12d26ee4.chunk.css",
+    "main.css": "/kavi_vanguard_react/static/css/main.1212ab2b.chunk.css",
     "main.js": "/kavi_vanguard_react/static/js/main.56f8ca0c.chunk.js",
     "main.js.map": "/kavi_vanguard_react/static/js/main.56f8ca0c.chunk.js.map",
     "runtime-main.js": "/kavi_vanguard_react/static/js/runtime-main.28503749.js",
@@ -10,7 +10,7 @@
     "static/js/3.0ad23560.chunk.js": "/kavi_vanguard_react/static/js/3.0ad23560.chunk.js",
     "static/js/3.0ad23560.chunk.js.map": "/kavi_vanguard_react/static/js/3.0ad23560.chunk.js.map",
     "index.html": "/kavi_vanguard_react/index.html",
-    "static/css/main.12d26ee4.chunk.css.map": "/kavi_vanguard_react/static/css/main.12d26ee4.chunk.css.map",
+    "static/css/main.1212ab2b.chunk.css.map": "/kavi_vanguard_react/static/css/main.1212ab2b.chunk.css.map",
     "static/js/2.d8f4a55a.chunk.js.LICENSE.txt": "/kavi_vanguard_react/static/js/2.d8f4a55a.chunk.js.LICENSE.txt",
     "static/media/vcep-logo.0c9c7f4e.jpg": "/kavi_vanguard_react/static/media/vcep-logo.0c9c7f4e.jpg",
     "static/media/white logo.99aa4169.PNG": "/kavi_vanguard_react/static/media/white logo.99aa4169.PNG"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.28503749.js",
     "static/js/2.d8f4a55a.chunk.js",
-    "static/css/main.12d26ee4.chunk.css",
+    "static/css/main.1212ab2b.chunk.css",
     "static/js/main.56f8ca0c.chunk.js"
   ]
 }
