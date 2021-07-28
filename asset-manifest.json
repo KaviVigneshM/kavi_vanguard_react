@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kavi_vanguard_react/static/css/main.12d26ee4.chunk.css",
-    "main.js": "/kavi_vanguard_react/static/js/main.35ecbf33.chunk.js",
-    "main.js.map": "/kavi_vanguard_react/static/js/main.35ecbf33.chunk.js.map",
+    "main.js": "/kavi_vanguard_react/static/js/main.56f8ca0c.chunk.js",
+    "main.js.map": "/kavi_vanguard_react/static/js/main.56f8ca0c.chunk.js.map",
     "runtime-main.js": "/kavi_vanguard_react/static/js/runtime-main.28503749.js",
     "runtime-main.js.map": "/kavi_vanguard_react/static/js/runtime-main.28503749.js.map",
     "static/js/2.d8f4a55a.chunk.js": "/kavi_vanguard_react/static/js/2.d8f4a55a.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.28503749.js",
     "static/js/2.d8f4a55a.chunk.js",
     "static/css/main.12d26ee4.chunk.css",
-    "static/js/main.35ecbf33.chunk.js"
+    "static/js/main.56f8ca0c.chunk.js"
   ]
 }
